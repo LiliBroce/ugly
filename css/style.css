@@ -1,0 +1,119 @@
+body {
+    background-image: url('../img/sick.jpg');
+    background-size: cover;
+    background-position: center;
+    background-size: 500px;
+    margin: auto;
+    background-color: chocolate;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: deeppink;
+}
+
+h1:hover {
+    color: blue;
+}
+
+marquee {
+    font-size: 75px;
+    position: fixed;
+    color: blueviolet;
+    text-align: center;    
+}
+
+marquee:hover {
+    background-color: blue;
+    color: deeppink;
+    transform: scale(1.25);
+}
+
+h4 {
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(103, 55, 0);
+    text-align: center;
+}
+
+h3:hover {
+    transform: scale(4);
+}
+
+#sick:hover {
+    transform: scale(1.05);
+    animation-duration: .5s;
+}
+
+#sick {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#ugly {
+    margin-top: 1900px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+
+#ugly:hover {
+    transform: scale(.75);
+}
+
+#first {
+    margin-top: 400px;
+}
+
+#first:hover {
+    transform: scale(2);
+    color: deeppink;
+    background-color: blue;
+}
+
+#second {
+    margin-top: 800px;
+}
+
+#second:hover {
+    transform: scale(2);
+    color: deeppink;
+    background-color: blue;
+}
+
+#third {
+    margin-top: 1200px;
+}
+
+#third:hover {
+    transform: scale(2);
+    color: deeppink;
+    background-color: blue;
+}
+
+#fourth {
+    margin-top: 1800px;
+}
+
+#fourth:hover {
+    transform: scale(2);
+    color: deeppink;
+    background-color: blue;
+}
+
+#last {
+    margin-bottom: 200px;
+}
+
+#last:hover {
+    transform: scale(4);
+    color: blueviolet;
+    background-color: deeppink;
+}
